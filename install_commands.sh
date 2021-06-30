@@ -1,4 +1,3 @@
-FROM ubuntu:16.04
 
 # Image containing:
 # 1.  Ubuntu:16.04
