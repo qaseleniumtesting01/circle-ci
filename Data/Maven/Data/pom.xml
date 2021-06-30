@@ -1,0 +1,18 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.qa_tests</groupId>
+	<artifactId>WST_37</artifactId>
+	<version>1.0</version>
+	<dependencies>
+	<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-servlets</artifactId>
+    <version>9.3.14.v20161028</version>
+	</dependency>
+	<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-continuation</artifactId>
+    <version>9.4.9.v20180320</version>
+</dependency>
+	</dependencies>
+</project>
