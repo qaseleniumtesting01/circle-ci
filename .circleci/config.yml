@@ -9,13 +9,7 @@ orbs:
   wsorb: whitesource/whitesource-scan@20.3.1
 
 workflows:
-  go:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/GO/Data/ 
-        config_file_path:  ./Data/GO/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
+  
 
   gradle:
     jobs:
@@ -24,69 +18,6 @@ workflows:
         directory: Data/Gradle/Data/
         config_file_path:  ./Data/Gradle/wss-unified-agent.config
         commands_file_path: "install_commands.sh"
-
-  Maven:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/Maven/Data/
-        config_file_path:  ./Data/Maven/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-  PHP:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/PHP/Data/
-        config_file_path:  ./Data/PHP/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-  npm:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/npm/Data
-        config_file_path:  ./Data/npm/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-
-  nuget:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/nugrt/Data/
-        config_file_path:  ./Data/nugrt/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-
-  pip:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/pip/Data/
-        config_file_path:  ./Data/pip/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-
-  ruby:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/ruby/Data/
-        config_file_path:  ./Data/ruby/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-
-  yarn:
-    jobs:
-    - wsorb/scan:
-        api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
-        directory: Data/yarn/Data/
-        config_file_path:  ./Data/yarn/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
-
-
-
 
 
 
