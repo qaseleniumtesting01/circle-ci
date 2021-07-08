@@ -160,3 +160,21 @@ wget https://github.com/sbt/sbt/releases/download/v${SBT_VERSION}/sbt-${SBT_VERS
 export SBT_HOME=/usr/share/sbt/bin/
 export PATH=$PATH:$SBT_HOME
 
+
+### Install dotnet cli/ Nuget/ sdk-2.2 and sdk-3.1 and sdk-5.0
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && \
+	dpkg -i packages-microsoft-prod.deb && \
+	apt-get update && \
+	apt-get install -y apt-transport-https && \
+	apt-get install -y dotnet-sdk-2.2 && \
+	apt-get install -y dotnet-sdk-3.1 && \
+	apt-get install -y dotnet-sdk-5.0 && \
+	apt-get install -y nuget && \
+	rm packages-microsoft-prod.deb && \
+	apt-get clean && \
+	rm -rf /var/lib/apt/lists/* && \
+	rm -rf /tmp/*
+	
+gem install bundler -v 2.1.4
+	
+apt-get update -y 
