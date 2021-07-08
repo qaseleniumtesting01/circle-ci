@@ -107,6 +107,19 @@ apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/*
+    
+# # Update Install Packages
+
+apt-get update && apt-get install -y --no-install-recommends ca-certificates curl wget
+
+# # Set Environment Variables
+PYTHON_VERSION=2.7.13
+PYTHON_PIP_VERSION=9.0.1
+
+# # Download Packages
+wget  https://github.com/whitesource/unified-agent-distribution/blob/master/standAlone/wss-unified-agent.jar
+
+apt-get update && apt-get install -y
 
 ### Install GO
 mkdir -p ${USER_HOME}/goroot && \
