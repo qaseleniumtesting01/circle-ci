@@ -52,10 +52,10 @@ echo "deb http://ppa.launchpad.net/openjdk-r/ppa/ubuntu bionic main" | tee /etc/
 
 
 ### Install Gradle
-wget -q https://services.gradle.org/distributions/gradle-$GRADLE_VERSION-bin.zip && \
+wget -q https://services.gradle.org/distributions/gradle-6.0.1-bin.zip && \
     unzip gradle-6.0.1-bin.zip -d /opt && \
     rm gradle-6.0.1-bin.zip
 ### Set Gradle in the environment variables
-export GRADLE_HOME=/opt/6.0.1
+export GRADLE_HOME=/opt/gradle-6.0.1
 export PATH=$PATH:/opt/gradle-6.0.1/bin
 
