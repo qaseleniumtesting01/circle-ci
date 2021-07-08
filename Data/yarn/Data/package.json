@@ -1,0 +1,24 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "shadowizardy": "^1.0.0",
+    "yargs-parser":"9.0.2",
+    "minimist":"1.2.0",
+    "handlebars":"4.1.2",
+    "tree-kill":"1.2.1",
+    "node-fetch":"2.6.0",
+    "ajv":"6.10.2",
+    "kind-of":"6.0.2",
+    "https-proxy-agent":"2.2.1",
+    "apollo-server-express":"2.8.1",
+    "apollo-server-core":"2.8.1",
+    "lodash":"4.17.15",
+    "request":"2.9.203",
+    "property-expr":"1.5.1",
+    "utile":"0.1.0",
+    "prop-types": "^15.6.0"
+  }
+}
