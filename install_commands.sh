@@ -29,7 +29,6 @@ MAVEN_VERSION_SHA=CE50B1C91364CB77EFE3776F756A6D92B76D9038B0A0782F7D53ACF1E997A1
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 export LANGUAGE=en_US.UTF-8
-export LANG= en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 ### Install wget, curl, git, unzip, gnupg, locales
