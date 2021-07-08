@@ -189,5 +189,6 @@ wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-pr
 	rm -rf /tmp/*
 	
 gem install bundler -v 2.1.4
+nuget update -self
 	
 apt-get update -y 
