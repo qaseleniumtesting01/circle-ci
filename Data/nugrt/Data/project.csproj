@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>EntityFramework persistence layer for IdentityServer4</Description>
+    <Authors>Brock Allen;Dominick Baier;Scott Brady</Authors>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyName>IdentityServer4.EntityFramework</AssemblyName>
+    <PackageId>IdentityServer4.EntityFramework</PackageId>
+    <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;EntityFramework</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/IdentityServer/Artwork/master/Logos/IDserver_icon128.jpg</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/IdentityServer/IdentityServer4.EntityFramework</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/IdentityServer/IdentityServer4.EntityFramework/blob/release/LICENSE</PackageLicenseUrl>
+    <VersionPrefix>2.1.0</VersionPrefix>
+    <!--<VersionSuffix>rc1</VersionSuffix>-->
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\IdentityServer4.EntityFramework.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\IdentityServer4.EntityFramework.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="SourceLink.Embed.AllSourceFiles" Version="2.5.0" PrivateAssets="all" />
+    <PackageReference Include="recurly-api-client" Version="1.0.1" />
+    <PackageReference Include="PeterO.Cbor" Version="4.0.0" />
+    <PackageReference Include="Nancy" Version="0.23.0" />
+    <PackageReference Include="opcfoundation.netstandard.opc.ua" Version="1.4.353.13" />
+    <PackageReference Include="messagepack.reactiveproperty" Version="0.8.0" />
+    <PackageReference Include="AjaxControlToolkit" Version="7.930.0" />
+  </ItemGroup>
+
+</Project>
