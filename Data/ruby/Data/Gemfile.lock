@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    a (0.1.1)
+    chalk (0.0.2)
+    proc_to_lambda (1.0.0)
+    q (0.0.1)
+      proc_to_lambda
+      threaded_in_memory_queue
+    threaded_in_memory_queue (0.0.4)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  a (~> 0.1.1)
+  chalk (~> 0.0.2)
+  q (~> 0.0.1)
+
+BUNDLED WITH
+   1.16.2
