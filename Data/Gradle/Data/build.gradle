@@ -1,0 +1,28 @@
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+
+
+buildscript {
+    repositories {
+      mavenCentral()
+		  mavenLocal()
+    }
+}
+
+configurations {
+	compile
+	runtime
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+compile group: 'com.google.guava', name: 'guava', version: '22.0'
+compile group: 'com.google.http-client', name: 'google-http-client', version: '1.29.2'
+}
+
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
