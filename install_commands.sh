@@ -77,13 +77,13 @@ npm i -g bower --allow-root && \
 	echo '{ "allow_root": true }' > ${USER_HOME}/.bowerrc
 
 ### Install Gradle
-wget -q https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip && \
-    unzip gradle-${GRADLE_VERSION}-bin.zip -d /opt && \
-    rm gradle-${GRADLE_VERSION}-bin.zip
+wget -q https://services.gradle.org/distributions/gradle-$GRADLE_VERSION-bin.zip && \
+    unzip gradle-$GRADLE_VERSION-bin.zip -d /opt && \
+    rm gradle-$GRADLE_VERSION-bin.zip
 
 ### Set Gradle in the environment variables
-export GRADLE_HOME=/opt/gradle-${GRADLE_VERSION}
-export PATH=$PATH:/opt/gradle-${GRADLE_VERSION}/bin
+export GRADLE_HOME=/opt/gradle-$GRADLE_VERSION
+export PATH=$PATH:/opt/gradle-$GRADLE_VERSION/bin
 
 ### Install all the python2.7 + python3.6 packages
 apt-get update && \
