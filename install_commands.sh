@@ -62,6 +62,7 @@ export PATH=$PATH:/opt/gradle-6.0.1/bin
 echo $GRADLE_HOME
 echo $PATH
 pwd
+ls /root/project/opt
 echo "ahmad"
 
 
