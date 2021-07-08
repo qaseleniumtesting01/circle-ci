@@ -1,0 +1,8 @@
+psycopg2-binary==2.7.5
+python-dotenv==0.9.1
+requests==2.19.1
+eventlet==0.24.1
+CacheControl==0.12.6
+j2cli==0.3.10
+gunicorn==19.9.0
+eventlet==0.24.1
