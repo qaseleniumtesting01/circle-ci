@@ -14,7 +14,7 @@
 # 12. Scala (2.12.6)
 # 13. SBT (1.5.1)
 # 14. Utils - wget, curl, git, unzip, gnupg, locales
-USER_HOME="/root"
+USER_HOME="/"
 JAVA_VERSION=8
 GRADLE_VERSION=6.0.1
 GOLANG_VERSION=1.12.6
