@@ -59,6 +59,8 @@ apt-get update -y && wget -q https://services.gradle.org/distributions/gradle-6.
 export GRADLE_HOME=/opt/gradle-6.0.1
 export PATH=$PATH:/opt/gradle-6.0.1/bin
 
+chmod +x "/root/project/Data/Gradle/Data/gradlew"
+
 echo $GRADLE_HOME
 echo $PATH
 pwd
