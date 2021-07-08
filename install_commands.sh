@@ -59,3 +59,6 @@ wget -q https://services.gradle.org/distributions/gradle-6.0.1-bin.zip && \
 export GRADLE_HOME=/opt/gradle-6.0.1
 export PATH=$PATH:/opt/gradle-6.0.1/bin
 
+echo GRADLE_HOME
+echo PATH
+
