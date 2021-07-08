@@ -14,7 +14,7 @@
 # 12. Scala (2.12.6)
 # 13. SBT (1.5.1)
 # 14. Utils - wget, curl, git, unzip, gnupg, locales
-USER_HOME="/"
+USER_HOME="/root"
 JAVA_VERSION=8
 GRADLE_VERSION=6.0.1
 GOLANG_VERSION=1.12.6
@@ -61,6 +61,7 @@ export PATH=$PATH:/opt/gradle-6.0.1/bin
 
 echo $GRADLE_HOME
 echo $PATH
+pwd
 echo "ahmad"
 
 
