@@ -23,7 +23,7 @@ workflows:
         api_key: '638d73808a2641fba68c0f9ba5408e617545c4403a194db8b3d765fd8767cb59'
         directory: Data/Gradle/Data/
         config_file_path:  ./Data/Gradle/wss-unified-agent.config
-        commands_file_path: "install_commands.sh"
+        commands_file_path: "install_commands.sh" 
 
   Maven:
     jobs:
