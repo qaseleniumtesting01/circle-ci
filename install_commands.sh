@@ -63,7 +63,8 @@ echo $GRADLE_HOME
 echo $PATH
 pwd
 ls /root/project/
-ls /opt
+ls /opt/gradle-6.0.1/
+find . -name "gradle-6.0.1"
 echo "ahmad"
 
 
