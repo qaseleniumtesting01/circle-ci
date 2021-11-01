@@ -1,0 +1,14 @@
+pool:
+  vmImage: ubuntu-latest
+steps:
+- inputs:
+    configuration: 'checkPolicies = True
+
+      forceUpdate = True
+
+      '
+    cwd: $(System.DefaultWorkingDirectory)
+    projectName: C6423297
+  task: WhiteSource@20
+trigger:
+- master
